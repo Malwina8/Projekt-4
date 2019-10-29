@@ -1,5 +1,8 @@
+/*VARIABLES*/
+/*GLOBAL*/
 body {
   font-family: "Open Sans", sans-serif;
+  color: #2d3436;
 }
 
 .container {
@@ -7,6 +10,24 @@ body {
   padding-bottom: 50px;
 }
 
+.header {
+  padding-bottom: 50px;
+}
+
+.header h2 {
+  text-transform: uppercase;
+  font-size: 35px;
+  padding-bottom: 0;
+  margin-bottom: 0;
+}
+
+.header p {
+  font-family: "PT Serif Caption", serif;
+  font-style: italic;
+  color: #57606f;
+}
+
+/*HEADER*/
 header {
   position: relative;
   color: #fff;
@@ -104,11 +125,65 @@ header .bar ul a {
   color: #fff;
 }
 
-.header {
+/*SERVICES*/
+.services {
+  text-align: center;
+}
+
+/*PORTFOLIO*/
+.portfolio {
+  background-color: #f7f7f7;
+  text-align: center;
   padding-bottom: 50px;
 }
 
-.header h2 {
-  text-transform: uppercase;
+.portfolio .card {
+  margin: 8px;
+}
+
+.portfolio .card-body {
+  background-color: #fff;
+  padding-bottom: 15px;
+}
+
+.portfolio .card-body h5 {
+  margin: 0;
+  padding-top: 20px;
+  font-weight: bold;
+  font-size: 22px;
+}
+
+.portfolio .card-body p {
+  font-family: "PT Serif Caption", serif;
+  font-style: italic;
+  color: #57606f;
+}
+
+.portfolio .card-image {
+  margin-top: 25px;
+}
+
+.portfolio .card-image img {
+  width: 100%;
+}
+
+footer {
+  font-size: 14px;
+  -ms-flex-direction: row;
+      flex-direction: row;
+}
+
+footer .container {
+  padding: 0;
+}
+
+footer p {
+  padding-right: 200px;
+}
+
+footer img {
+  padding-left: 10px;
+  width: 40px;
+  height: 30px;
 }
 /*# sourceMappingURL=style.css.map */
