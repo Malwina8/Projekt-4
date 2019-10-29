@@ -1,0 +1,114 @@
+body {
+  font-family: "Open Sans", sans-serif;
+}
+
+.container {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+header {
+  position: relative;
+  color: #fff;
+}
+
+header img {
+  z-index: -1;
+  height: 100vh;
+  width: 100%;
+}
+
+header .title {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 3;
+  text-align: center;
+}
+
+header .title p {
+  font-family: "PT Serif Caption", serif;
+  font-style: italic;
+  font-size: 40px;
+}
+
+header .title h1 {
+  text-transform: uppercase;
+  font-size: 74px;
+}
+
+header .title .btn {
+  color: #fff;
+  text-transform: uppercase;
+  padding: 17 40px;
+  font-size: 20px;
+  background-color: #fed136;
+  border-radius: 6px;
+  border-color: #fed136;
+}
+
+header .title .btn:hover {
+  background: none;
+  color: #fed136;
+  cursor: pointer;
+}
+
+header .bar {
+  position: absolute;
+  top: 0;
+  margin: auto;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: row;
+      flex-direction: row;
+  -ms-flex-pack: justify;
+      justify-content: space-between;
+  z-index: 3;
+  left: 0;
+  right: 0;
+  top: 0;
+  z-index: 3;
+}
+
+header .bar h4 {
+  padding: 0;
+  margin: 0;
+  font-family: "Satisfy", cursive;
+  color: #fed136;
+  font-size: 35px;
+}
+
+header .bar ul {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: row;
+      flex-direction: row;
+  padding: 20px;
+  margin: 0;
+  list-style-type: none;
+  text-align: left;
+}
+
+header .bar ul li {
+  padding-left: 50px;
+}
+
+header .bar ul li:hover a {
+  color: #fed136;
+}
+
+header .bar ul a {
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #fff;
+}
+
+.header {
+  padding-bottom: 50px;
+}
+
+.header h2 {
+  text-transform: uppercase;
+}
+/*# sourceMappingURL=style.css.map */

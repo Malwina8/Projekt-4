@@ -1,0 +1,103 @@
+$color-light: #d9d9d9;
+$color-gray: #57606f;
+$color-white: #fff;
+$color-yellow: #fed136;
+$font-main: 'Open Sans', sans-serif;
+$font-italic: 'PT Serif Caption', serif;
+$font-decorative: 'Satisfy', cursive;
+
+body {
+    font-family: $font-main;
+}
+
+.container {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+header {
+  position: relative;
+  color: #fff;
+  img {
+    z-index: -1;
+    height: 100vh;
+    width: 100%;
+  }
+  .title {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 3;
+    text-align: center;
+    p {
+      font-family: $font-italic;
+      font-style: italic;
+      font-size: 40px;
+    }
+    h1 {
+      text-transform: uppercase;
+      font-size: 74px;
+    }
+    .btn {
+      color: $color-white;
+      text-transform: uppercase;
+      padding: 17 40px;
+      font-size: 20px;
+      background-color: $color-yellow;
+      border-radius: 6px;
+      border-color: $color-yellow;
+      &:hover {
+        background: none;
+        color: $color-yellow;
+        cursor: pointer;
+      }
+    }
+  }
+  .bar {
+    position: absolute;
+    top: 0 ;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    z-index: 3;
+    left: 0;
+    right: 0;
+    top: 0;
+    z-index: 3;
+    h4 {
+      padding: 0;
+      margin: 0;
+      font-family: $font-decorative;
+      color: $color-yellow;
+      font-size: 35px;
+    }
+      ul {
+        display: flex;
+        flex-direction: row;
+        padding: 20px;
+        margin: 0;
+        list-style-type: none;
+        text-align: left;
+        li {
+          padding-left: 50px;
+          &:hover a {
+            color: $color-yellow;
+          }
+        }
+        a {
+          text-transform: uppercase;
+          text-decoration: none;
+          color: #fff;
+        }
+      }
+  }
+}
+
+.header {
+  padding-bottom: 50px;
+  h2 {
+    text-transform: uppercase;
+  }
+}
