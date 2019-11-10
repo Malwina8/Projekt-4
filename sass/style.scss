@@ -167,3 +167,31 @@ footer {
       height: 30px;
     }
 }
+
+@media (max-width: 767px) {
+  .bar {
+    flex-wrap: wrap;
+    ul {
+      flex: 100%;
+      font-size: 18px;
+      padding: 0!important;
+      li {
+        padding: 0 14px 0 0!important;
+      }
+    }
+  }
+  header .container {
+    padding: 10px;
+  }
+  .title {
+    width: 100%;
+    h1 {
+      font-size: 40px;
+      padding-top: 0;
+    }
+    p {
+      font-size: 25px;
+      padding-bottom: 0;
+    }
+  }
+}

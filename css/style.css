@@ -191,4 +191,34 @@ footer img {
   width: 40px;
   height: 30px;
 }
+
+@media (max-width: 767px) {
+  .bar {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  .bar ul {
+    -ms-flex: 100%;
+        flex: 100%;
+    font-size: 18px;
+    padding: 0 !important;
+  }
+  .bar ul li {
+    padding: 0 14px 0 0 !important;
+  }
+  header .container {
+    padding: 10px;
+  }
+  .title {
+    width: 100%;
+  }
+  .title h1 {
+    font-size: 40px;
+    padding-top: 0;
+  }
+  .title p {
+    font-size: 25px;
+    padding-bottom: 0;
+  }
+}
 /*# sourceMappingURL=style.css.map */
